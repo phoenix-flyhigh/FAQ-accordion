@@ -1,0 +1,20 @@
+ 
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@font-face {
+  font-family: WorkSans-Bold;
+  src: local('Work Sans'), local('WorkSans-Regular'), url('/fonts/WorkSans-Bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: WorkSans-SemiBold;
+  src: local('Work Sans'), local('WorkSans-Regular'), url("fonts/WorkSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: WorkSans-Regular;
+  src: local('Work Sans'), local('WorkSans-Regular'), url("fonts/WorkSans-Regular.ttf") format("truetype");
+}
