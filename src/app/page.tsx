@@ -69,13 +69,13 @@ export default function Home() {
           }}
         />
       </div>
-      <main className="flex flex-col lg:w-[480px] rounded-xl p-6 z-10 bg-white sm:w-[320px] sm: m-4">
+      <main className="flex flex-col lg:w-[540px] rounded-xl p-6 z-10 bg-white sm:w-[320px] sm: m-4">
         <div className="flex justify-start gap-4 mt-2">
           <Image
             src="/assets/images/icon-star.svg"
             alt="collapse-icon"
-            width={40}
-            height={40}
+            width={50}
+            height={50}
           />
           <h1 className="font-boldFont text-5xl font-black text-DarkPurple">
             FAQs

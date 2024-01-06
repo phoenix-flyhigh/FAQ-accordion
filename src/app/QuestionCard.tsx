@@ -14,10 +14,10 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
   return (
     <section className="flex flex-col p-4 gap-3">
       <button
-        className="flex justify-between hover:cursor-pointer items-center text-left"
+        className="flex justify-between hover:cursor-pointer items-center text-left gap-2"
         onClick={() => setIsExpanded((prev) => !prev)}
       >
-        <h3 className="font-semiBoldFont  text-DarkPurple hover:text-fuchsia-600">
+        <h3 className="font-semiBoldFont font-bold text-lg text-DarkPurple hover:text-fuchsia-600">
           {question}
         </h3>
         {isExpanded ? (
@@ -37,7 +37,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
         )}
       </button>
       {isExpanded && (
-        <p className="font-regularFont text-GrayishPurple text-sm">{answer}</p>
+        <p className="font-regularFont text-GrayishPurple text-lg">{answer}</p>
       )}
     </section>
   );
